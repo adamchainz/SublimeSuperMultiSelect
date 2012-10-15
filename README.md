@@ -7,7 +7,27 @@ Adds a whole lot of multi-select goodness to [Sublime Text 2][1]: select previou
 How to Use
 ==========
 
+This Plugin features a lot of goodness:
 
+* Line Commands such as "Select all blank lines"
+
+* Select a Column (in a Tab-delimited file)
+
+You can find most of these under the command palette.
+
+There is also **Find Under Prev Expand**, which is like the classic find_under_expand (_Ctrl/Command - D_), but in reverse. I would have added a keybinding, but with shift it would intersect with the default **Duplicate Line**. Example OS X keybinding:
+
+    // Find Under Previous Expand
+    { "keys": ["super+shift+d"], "command": "find_under_prev_expand" },
+    { "keys": ["super+k", "super+shift+d"], "command": "find_under_prev_expand_skip" },
+    { "keys": ["super+shift+k", "super+shift+d"], "command": "find_under_prev_expand_skip" },
+
+And also **Add Next Word**, e.g.:
+
+    // Select words
+    { "keys": ["super+alt+d"], "command": "add_next_word" },
+    { "keys": ["super+k","super+alt+d"], "command": "add_next_word_skip" },
+    { "keys": ["super+alt+k","super+alt+d"], "command": "add_next_word_skip" },
 
 License
 =======
