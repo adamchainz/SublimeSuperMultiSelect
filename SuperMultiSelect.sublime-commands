@@ -3,10 +3,14 @@
     { "caption": "Super Multi-select: Select All Lines", "command": "select_all_lines" },
     { "caption": "Super Multi-select: Select Blank Lines", "command": "select_blank_lines" },
     { "caption": "Super Multi-select: Select Non-Blank Lines", "command": "select_non_blank_lines" },
+
     // Words
     { "caption": "Super Multi-select: Select All Words", "command": "select_all_words" },
 
     // More particular things
     { "caption": "Super Multi-select: Select All Emails", "command": "select_all_emails" },
-    { "caption": "Super Multi-select: Select All URLs", "command": "select_all_urls" }
+    { "caption": "Super Multi-select: Select All URLs", "command": "select_all_urls" },
+
+    // Select Columns
+    { "caption": "Super Multi-select: Select a Column [Tab-Based]", "command": "select_column_prompt" }
 ]
